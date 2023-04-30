@@ -1,0 +1,92 @@
+.password-container-1 {
+  display: flex;
+  align-items: center;
+  border: 1px solid #9ba9eb;
+  padding: 6px;
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  height: 90px;
+}
+
+.button-1 {
+  outline: none;
+  border: 0px;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .password-container-1 {
+    display: flex;
+    align-items: center;
+    border: 1px solid #9ba9eb;
+    padding: 6px;
+    border-radius: 10px;
+    width: 32%;
+    margin-bottom: 10px;
+    margin-right: 18px;
+    height: 90px;
+  }
+}
+
+.first-letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #10b981;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 700;
+  color: white;
+  font-family: 'Roboto';
+}
+
+.domain-name-star-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 0px;
+  width: 70%;
+  height: 100%;
+  margin-left: 9px;
+  background-color: transparent;
+}
+
+.doamin-name {
+  font-size: 13px;
+  font-weight: 700;
+  color: #b6c3ca;
+  font-family: 'Roboto';
+  margin: 0px;
+  padding: 0px;
+}
+
+.name {
+  font-size: 13px;
+  font-weight: 700;
+  color: #b6c3ca;
+  font-family: 'Roboto';
+  margin-top: 5px;
+  padding: 0px;
+}
+
+.star-img {
+  height: 16px;
+  width: 60%;
+}
+
+.delete-icon {
+  height: 25px;
+  width: 25px;
+}
+
+.password-text {
+  font-size: 13px;
+  font-weight: 700;
+  color: #b6c3ca;
+  font-family: 'Roboto';
+  margin: 0px;
+  padding: 0px;
+}

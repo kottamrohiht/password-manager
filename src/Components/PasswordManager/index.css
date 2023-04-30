@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+}
+
+.app-container {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  padding: 30px;
+}
+
+.logo-img {
+  height: 40px;
+  margin-bottom: 30px;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #5763a5;
+  width: 100%;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    background-color: #5763a5;
+    width: 100%;
+    border-radius: 10px;
+  }
+}
+
+.sm-img {
+  height: 190px;
+  width: 70%;
+  margin-left: 30px;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .sm-img {
+    display: none;
+  }
+}
+
+.lg-img {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .lg-img {
+    display: flex;
+    height: 100%;
+    width: 35%;
+    order: 1;
+  }
+}
+
+.form-container {
+  background-color: #454f84;
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .form-container {
+    background-color: #454f84;
+    width: 40%;
+    padding: 15px;
+    border-radius: 10px;
+  }
+}
+
+.form-heading {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 3px;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 38px;
+  margin-bottom: 10px;
+}
+
+.input-img {
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+}
+
+.input-element {
+  border: 0px;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 800;
+  font-family: 'Roboto';
+}
+
+.line {
+  height: 100%;
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.button-container {
+  text-align: right;
+}
+
+.button {
+  font-size: 13px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: white;
+  background-color: #0b69ff;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+  border: 0px;
+}
+
+.YourPassword-container {
+  height: 400px;
+  width: 100%;
+  background-color: #5763a5;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  overflow-y: scroll;
+}
+
+.password-inner-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.your-count-container {
+  display: flex;
+  align-items: center;
+}
+
+.your-password {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+.password-count {
+  border: 1px solid white;
+  background-color: transparent;
+  padding-left: 7px;
+  padding-right: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin-left: 10px;
+  color: white;
+}
+
+.input-container-1 {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  border-radius: 3px;
+  padding: 0px;
+  margin: 0px;
+  width: 40%;
+}
+
+.input-img-1 {
+  height: 15px;
+  width: 15px;
+  margin-left: 7px;
+}
+
+.line-1 {
+  height: 15px;
+  color: black;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.input-element-1 {
+  border: 0px;
+  outline: none;
+  border: 0px;
+  width: 100%;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+
+.hr-line {
+  border: 1px solid #94a3b8;
+}
+
+.password-main-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.show-password-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: right;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.show-passwords {
+  color: #c3caea;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-left: 10px;
+}
